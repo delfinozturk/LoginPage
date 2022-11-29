@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@200;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/people.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form {
+    width: 390px;
+    height: 490px;
+    position: relative;
+    background-color: rgba(225, 225, 225, 0.842);
+    box-shadow: 0 0 20px 9px #a3450e;
+    border-radius: 20px;
+    margin: 10% auto;
+    padding: 40px;
+}
+
+.form-button {
+    width: 220px;
+    margin: 40px auto;
+    position: relative;
+    box-shadow: 0 0 40px 2px #a3450e;
+    border-radius: 28px;
+}
+
+.btn {
+    position: relative;
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#btn-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(to right, #a3450e, #a3450e49);
+}
