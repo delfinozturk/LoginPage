@@ -12,10 +12,42 @@
         <div class="form">
             <div class="form-button">
                 <div id="btn-btn"></div>
-                <button type="button" class="btn">Log In</button>
-                <button type="button"class="btn">Register</button>
+                <button type="button" class="btn" onclick="login()">Login</button>
+                <button type="button"class="btn" onclick="register()">Register</button>
             </div>
+            <div class="icons">
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_3s913D.json"  background="transparent"  
+                speed="1"    loop  autoplay></lottie-player>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_OFBfKg.json"  background="transparent"  
+                speed="1"   loop  autoplay></lottie-player>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Joz0FE.json"  background="transparent"  
+                speed="1"    loop  autoplay></lottie-player>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_0Cm1Y2.json"  background="transparent"  
+                speed="1"   loop  autoplay></lottie-player>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_YGNGxq.json"  background="transparent"  
+                speed="1"   loop  autoplay></lottie-player>
+            </div>
+             <form id="Login" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter Usename" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <a href="#">Lost Your Password</a>
+                <button type="submit" class="submit-button">Login</button>
+             </form>
+             <form id="Register"class="input-group">
+                <input type="text" class="input-field" placeholder="Enter Usename" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="email" class="input-field" placeholder="Enter Email" required>
+                <a href="#">By registering, you agree to the Terms, Data Policy and Cookies Policy</a>
+                <button type="submit" class="submit-button">Register</button>
+
+             </form>
         </div>
     </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>
