@@ -13,17 +13,24 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 .form {
-    width: 390px;
-    height: 490px;
+    width: 370px;
+    height: 460px;
     position: relative;
     background-color: rgba(225, 225, 225, 0.842);
     box-shadow: 0 0 20px 9px #a3450e;
     border-radius: 30px;
     margin: 10% 40%;
-    padding: 40px;
+    padding: 30px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 15px;
+
+
 }
 
 .form-button {
@@ -32,6 +39,7 @@
     position: relative;
     box-shadow: 0 0 40px 2px #a3450e;
     border-radius: 30px;
+
 }
 
 .btn {
@@ -74,6 +82,7 @@
     top: 220px;
     width: 290px;
     transition: .5s;
+    margin: 10px 20px;
 }
 
 .input-field {
